@@ -1,0 +1,76 @@
+/* Body themes */
+body.light {
+  background: #fafafa;
+  color: #111827;
+}
+
+body.dark {
+  background: #111827;
+  color: #f9fafb;
+}
+
+/* App container */
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Theme overrides for container */
+.app-container.light {
+  background: #fff;
+  color: #111827;
+}
+
+.app-container.dark {
+  background: #1a1a1a;
+  color: #f9fafb;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.app-container.dark .card {
+  background: #2a2a2a !important;
+  border: 1px solid #444 !important;
+}
+
+/* Buttons */
+button {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.app-container.dark button {
+  background: #444 !important;
+  color: #fff !important;
+  border: 1px solid #666 !important;
+}
+
+/* Inputs */
+input {
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.app-container.dark input {
+  background: #333 !important;
+  color: #fff !important;
+  border: 1px solid #666 !important;
+}
