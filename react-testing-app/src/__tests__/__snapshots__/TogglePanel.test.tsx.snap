@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TogglePanel matches snapshot when collapsed 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="toggle-panel"
+  >
+    <h2>
+      Snapshot Panel
+    </h2>
+    <button>
+      Show
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,12 @@
+import { render, screen } from "@testing-library/react";
+import App from "../App";
+
+describe("App Component", () => {
+  it("renders navigation links", () => {
+    render(<App />);
+
+    expect(screen.getByText("Home")).toBeInTheDocument();
+    expect(screen.getByText("Users")).toBeInTheDocument();
+  });
+});
+ 
